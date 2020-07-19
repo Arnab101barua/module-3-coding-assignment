@@ -1,0 +1,145 @@
+body{
+    font-size:16px;
+    color:#fff;
+    background-color: #61122f;
+    font-family: sans-serif;
+}
+
+#header-nav{
+    background-color:#f6b319;
+    border-radius:0;
+    border:0;
+    margin-left:0;
+}
+.navbar-header{
+    width:100%;
+}
+.navbar-brand h1{
+    margin-left:10px;
+    margin-top:0;
+    text-decoration: none;
+    color:aliceblue;
+    text-transform: uppercase;
+    float:left;
+    font-size:35px;
+}
+button{
+    float:right;
+    background:#61122f;
+    border:1px solid;
+    border-radius:5px;
+    height:35px;
+    width:50px;
+    display:none;
+
+    
+}
+
+.nav li{
+    text-align:center;
+    margin-bottom:5px;
+     background-color:maroon;
+
+    }
+.nav li a{
+    font-size:25px;
+    color:aliceblue;
+    display:inline-block;
+}
+
+/*section part design*/
+
+
+.head h2 {
+    margin: auto;
+    font-size: 35px;
+    font-family: tahoma;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width:160px;
+    color:#f6b319;
+
+
+}
+
+.first {
+    margin-left:20px;
+    margin-right:20px;
+    background-color:#222222;
+    margin-left:20px;
+    
+    
+}
+
+.first h3 {
+    position:relative;
+    background-color:#f6b319;
+    color:#fff;
+    text-align: center;
+   
+}
+
+.first p {
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.second {
+    margin-left:20px;
+    margin-right:20px;
+    background-color:#222222;
+    
+  
+}
+
+.second h3 {
+    position: relative;
+    color: #fff;
+    background-color:#f6b319;
+   
+    text-align: center;
+   
+}
+
+.second p {
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.third {
+    margin-right:20px;
+    
+    margin-left:20px;
+    float: left;
+    background-color:#222222;
+}
+
+.third h3 {
+    position: relative;
+   
+    background-color: #f6b319;
+
+    text-align: center;
+    color:#fff;
+}
+
+.third p {
+    margin-top: 25px;
+    padding: 20px;
+}
+footer p a{
+    color:aliceblue;
+    font-size:25px;
+    margin-left:40px;
+    margin-top:15px;
+    padding:15px;
+}
+footer p{
+    margin-top:15px;
+}
+@media (max-width:767px){
+    button{
+        display:block;
+    }
+}
+    
